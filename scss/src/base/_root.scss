@@ -1,0 +1,38 @@
+/* Default CSS Variables */
+
+/**
+ *
+ * ! Default CSS Variables
+ * As scss is not fully compatible with CSS,
+ * We need embed this variable
+ *
+ */
+
+ :root {
+	--dgns-body-text-color: #{$dark}; /* interpulate syntex*/
+	--dgns-body-bg-color: #{$white};
+	--dgns-btn-primary-color: #{$white};
+	--dgns-btn-primary-bg: #{$green};
+	--dgns-btn-primary-bg-hover: #{$green-light};
+	--dgns-btn-secondary-color: #{$white};
+	--dgns-btn-secondary-bg: #{$dark};
+	--dgns-form-color: #{$dark};
+	--dgns-form-bg: #{$white};
+	--dgns-form-error-color: #{$red};
+	--dgns-form-error-border: #{$red};
+	--dgns-form-border-focus-color: #{$green};
+	--dgns-body-font-size: #{$fs-base};
+	--dgns-body-font-weight: #{$fw-normal};
+	--dgns-h1-font-size: #{$h-1};
+	--dgns-h2-font-size: #{$h-2};
+	--dgns-h3-font-size: #{$h-3};
+	--dgns-h4-font-size: #{$h-4};
+	--dgns-h5-font-size: #{$h-5};
+	--dgns-h6-font-size: #{$h-6};
+	--dgns-h1-font-weight: #{$fw-medium};
+	--dgns-h2-font-weight: #{$fw-medium};
+	--dgns-h3-font-weight: #{$fw-medium};
+	--dgns-h4-font-weight: #{$fw-normal};
+	--dgns-h5-font-weight: #{$fw-normal};
+	--dgns-h6-font-weight: #{$fw-light};
+}

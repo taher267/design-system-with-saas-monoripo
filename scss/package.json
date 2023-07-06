@@ -1,0 +1,12 @@
+{
+  "name": "saas",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "node src/scripts/build.js"
+  },
+  "dependencies": {
+    "sass": "^1.63.6"
+  }
+}
