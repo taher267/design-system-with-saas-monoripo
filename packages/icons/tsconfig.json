@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "outDir": "lib",
+    "outDir": "hi",
     "module": "esnext",
     "lib": ["DOM", "ESNext"],
     "jsx": "react",
@@ -14,6 +14,6 @@
     "declaration": true,
     "moduleResolution": "node"
   },
-  "include": ["src", "../../icons"],
-  "exclude": ["node_modules", "lib"]
+  "include": ["src"],
+  "exclude": ["node_modules", "hi"]
 }

@@ -1,0 +1,15 @@
+@import "../foundation/index";
+
+.dgns-text {
+  margin: 0;
+  font-family: $body-font-family;
+  color: $body-text-color;
+}
+
+@each $k, $v in $fs {
+  .dgns-text-#{$k} {
+    font-size: #{$v};
+  }
+}
+
+// dgns-text-xl

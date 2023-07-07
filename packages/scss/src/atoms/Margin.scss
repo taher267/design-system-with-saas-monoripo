@@ -1,0 +1,16 @@
+@import "../foundation/index";
+
+$sides: top, right, bottom, left;
+
+@each $k, $v in $spacing {
+  .dgns-margin-#{$k} {
+    margin: #{$v};
+  }
+  @each $side in $sides {
+    .dgns-margin-#{$side}-#{$k} {
+      margin-#{$side}: #{$v};
+    }
+  }
+}
+
+// dgns-text-xl

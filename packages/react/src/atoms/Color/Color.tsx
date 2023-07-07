@@ -1,7 +1,10 @@
 import React from "react";
-import Spacing from "../../foundation/Spacing";
+import { Spacing } from "@dswsmr/foundation";
 import "@dswsmr/scss/lib/Utility.css";
+import type * as CSS from "csstype";
+
 interface ColorInterface {
+  cs?: CSS.Properties;
   hexColor: string;
   font?: string;
   height?: keyof typeof Spacing;

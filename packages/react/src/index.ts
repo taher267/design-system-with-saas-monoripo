@@ -1,6 +1,7 @@
 import Button from "./atoms/Button";
 import Color from "./atoms/Color";
-import Spacing from "./foundation/Spacing";
+import Text from "./atoms/Text";
+import Margin from "./atoms/Margin";
+import Select from "./atoms/Select";
 
-
-export { Button, Color, Spacing };
+export { Button, Color, Text, Margin, Select };
