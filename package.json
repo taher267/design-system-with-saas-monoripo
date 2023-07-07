@@ -4,14 +4,16 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "build": "yarn lerna run build"
+    "build": "yarn lerna run build",
+    "dev": "yarn lerna run dev"
   },
   "devDependencies": {
     "lerna": "^6.3.0"
   },
   "workspaces": {
     "packages": [
-      "packages/*"
+      "packages/*",
+      "playground/*"
     ]
   },
   "private": true
