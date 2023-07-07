@@ -1,17 +1,11 @@
-import { Button } from "@dswsmr/react/lib";
+import { Button, Color } from "@dswsmr/react/lib";
 import "./App.css";
 
 function App() {
   return (
     <>
-      <Button
-        title="Grettings"
-        onClick={(e) => {
-          console.log(e?.target);
-        }}
-      >
-        Bismillah
-      </Button>
+      <Button title="Grettings">Bismillah</Button>
+      <Color {...{ hexColor: "red", height: "xl", width: "xl" }} />
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>

@@ -1,0 +1,10 @@
+@import "../foundation/index";
+
+@each $k, $v in $spacing {
+  .dgns-width-#{$k} {
+    width: #{$v};
+  }
+  .dgns-height-#{$k} {
+    height: #{$v};
+  }
+}
