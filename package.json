@@ -1,0 +1,18 @@
+{
+  "name": "@dswsmr/core",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "yarn lerna run build"
+  },
+  "devDependencies": {
+    "lerna": "^6.3.0"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "private": true
+}
