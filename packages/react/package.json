@@ -5,14 +5,26 @@
   "license": "MIT",
   "scripts": {
     "build": "rollup -c",
-    "dev": "yarn build -w"
+    "dev": "yarn build -w",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
   },
   "devDependencies": {
+    "@storybook/addon-essentials": "^7.0.26",
+    "@storybook/addon-interactions": "^7.0.26",
+    "@storybook/addon-links": "^7.0.26",
+    "@storybook/blocks": "^7.0.26",
+    "@storybook/react": "^7.0.26",
+    "@storybook/react-vite": "^7.0.26",
+    "@storybook/testing-library": "^0.0.14-next.2",
     "@types/react": "^18.2.14",
     "csstype": "^3.1.2",
+    "prop-types": "^15.8.1",
     "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "rollup": "^3.26.2",
     "rollup-plugin-typescript2": "^0.35.0",
+    "storybook": "^7.0.26",
     "typescript": "^5.1.6"
   }
 }

@@ -2,21 +2,21 @@ import React from "react";
 import "@dswsmr/scss/lib/Button.css";
 import "@dswsmr/scss/lib/Select.css";
 import { IconCheck, IconChevronDown, IconChevronUp } from "@dswsmr/icons/hi";
-import Text from "../Text";
+import Text from "../../atoms/Text";
 import type * as CSS from "csstype";
 
-interface SelectOption {
+export interface SelectOption {
   label: string;
   value: string;
 }
 
-interface RenderOptionProps {
+export interface RenderOptionProps {
   isSelected: boolean;
   option: SelectOption;
   getOptionrecommendedProps: (overrideProps?: Object) => Object;
 }
 
-interface SelectInterface {
+export interface SelectInterface {
   cs?: CSS.Properties;
   label: string;
   options?: Array<SelectOption>;
