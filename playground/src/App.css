@@ -40,3 +40,15 @@
 .read-the-docs {
   color: #888;
 }
+
+.custom_select_option {
+  padding: 1rem;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  justify-content: space-between;
+}
+
+.custom_select_option_selected {
+  background: greenyellow;
+  color: #fff;
+}
